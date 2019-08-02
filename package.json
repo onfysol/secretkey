@@ -1,0 +1,27 @@
+{
+  "name": "AuthSecret",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.7",
+    "mongoose-encryption": "^2.0.2",
+    "request": "^2.88.0"
+  }
+}
